@@ -1,0 +1,6 @@
+com\mycompany\soap\client\package-info.class
+com\mycompany\soap\client\ObjectFactory.class
+com\mycompany\soap\client\Hello.class
+com\mycompany\soap\client\StudentService.class
+com\mycompany\soap\client\HelloResponse.class
+com\mycompany\soap\client\StudentService_Service.class
