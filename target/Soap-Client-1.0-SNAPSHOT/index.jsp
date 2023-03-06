@@ -49,6 +49,34 @@
         
     </div>
 
-    
+    <!-- Categories Items -->
+
+    <div class="categories">
+        <div class="cat-phrase">
+            <h2>Shop Catergory</h2>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <a href="#">
+                    <img src="./Categories/men.png" alt="">
+                    <h3>Men</h3>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <img src="./Categories/women.png" alt="">
+                    <h3>Women</h3>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="#">
+                    <img src="./Categories/kid.png" alt="">
+                    <h3>Kids</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Items -->
 </body>
 </html>

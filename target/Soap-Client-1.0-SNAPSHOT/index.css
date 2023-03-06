@@ -125,3 +125,41 @@ body{
     width: 150px;
     padding: 10px;
 }
+
+/* Catergories Section */
+
+.categories {
+    margin: 70px 0;
+}
+
+.cat-phrase {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.col-3{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.col-3 a{
+    text-decoration: none;
+
+}
+
+.col-3 a h3{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.row {
+    text-align: center;
+}
+
+/* Catergories Section */
