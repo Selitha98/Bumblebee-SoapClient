@@ -51,17 +51,19 @@ body{
 
 .header2-phrase{
     font-size: 5em;
+    margin-bottom: 10px;
     
 }
 
 .shopnow{
     padding: 15px 40px;
+    margin-top: 10px;
     font-size: 2em;
     border: none;
     border-radius: 30px;
     color: #fff;
     background-color: black;
-    backdrop-filter: blur(20px);
+    text-decoration: none;
     
 
 }

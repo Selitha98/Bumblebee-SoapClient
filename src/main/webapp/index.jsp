@@ -42,7 +42,7 @@
         <div class="header2">
             <div class="header2-content">
                 <h2 class="header2-phrase">Buy First and Pay Later</h2>
-                <a href="#"><button class="shopnow">Shop Now </button></a>
+                <a href="#" class="shopnow">Shop Now</a>
             </div>
         </div>
 
