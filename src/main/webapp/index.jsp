@@ -13,10 +13,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="ShopStyle.css">
         <link rel="stylesheet" href="index.css">
-        <title>Home</title>
-    </head>
-    <body>
+    
+    <title>Home</title>
+</head>
+<body>
     <div class="header">
         <div class="menu-bar">
                 <img src="./images/whiteletterSmall.png" alt="logo">
@@ -35,7 +38,7 @@
                     </li>    
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">Cart</a></li> 
+                    <li class="cart"><a href="Cart.jsp"><ion-icon name="cart"></ion-icon>CART<span>0</span></a></li> 
                 </ul>
         </div>
 
@@ -48,14 +51,13 @@
 
         
     </div>
-
     <!-- Categories Items -->
 
     <div class="categories">
         <div class="cat-phrase">
             <h2>Shop Catergory</h2>
         </div>
-        <div class="row">
+        <div class="rowcat">
             <div class="col-3">
                 <a href="#">
                     <img src="./Categories/men.png" alt="">
@@ -78,5 +80,26 @@
     </div>
 
     <!-- Categories Items -->
+    
+    
+    <!-- Offer -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="offer-row">
+                <div class="col-2">
+                    <img src="./images/offer.png" alt="offer">
+                </div>
+                <div class="col-2">
+                    <h2>Exclusively Available on  Store</h2>
+                    <h1>50% Offer</h1>
+                    <a class="btn-Offer" href="#">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer finished -->
+    
 </body>
 </html>
