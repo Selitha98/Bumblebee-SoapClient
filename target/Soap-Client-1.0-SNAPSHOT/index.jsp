@@ -41,6 +41,7 @@
                     <li class="cart"><a href="Cart.jsp"><ion-icon name="cart"></ion-icon>CART<span>0</span></a></li> 
                 </ul>
         </div>
+    </div>
 
         <div class="header2">
             <div class="header2-content">
