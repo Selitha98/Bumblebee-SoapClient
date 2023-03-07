@@ -143,5 +143,45 @@
     <hr>
     <!-- Features Product -->
     
+    <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-left">
+                <img src="./images/whiteletterSmall.png" alt="">
+                
+            </div>
+                <ul class="footer-right">
+                    <li>
+                        <h2>Product</h2>
+                        <ul class="boxfooter">
+                            <li><a href="#">Men Shoes</a></li>
+                            <li><a href="#">Women Shoes</a></li>
+                            <li><a href="#">Kids Shoes</a></li>
+                            <li><a href="#">All Product</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="features">
+                        <h2>Useful Links</h2>
+                        <ul class="boxfooter">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact US</a></li>
+                            <li><a href="#">Admin</a></li>
+                        </ul>
+                    </li>
+                    <li class="features">
+                        <h2>Address</h2>
+                        <ul class="boxfooter">
+                            <li><a href="#">27/12, Anderson Road</a></li>
+                            <li><a href="#">High Level Road</a></li>
+                            <li><a href="#">Nugegoda</a></li>
+                            <li><a href="#">Colombo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            <div class="footer-bottom">
+                <p>All Right Reserved by &copy;Bumblebee 2023</p>
+            </div>
+        </footer>
+    
 </body>
 </html>
