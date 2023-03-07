@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 7, 2023, 7:23:34 PM
+    Author     : Selitha Sasmitha
+*/
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(#333 , #333 );
+    padding-bottom: 70px;
+}
+
+.cart-container form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.cart-container form .crt-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cart-container form .crt-row .crt-col{
+    flex: 1 1 250px;
+}
+
+.cart-container form .crt-row .crt-col .crt-Titile{
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.cart-container form .crt-row .crt-col .inputBOx{
+    margin: 15px 0;
+}
+
+.cart-container form .crt-row .crt-col .inputBOx span{
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.cart-container form .crt-row .crt-col .inputBOx input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.cart-container form .crt-row .crt-col .inputBOx input:focus{
+    border: 1px solid #000;
+}
+
+.cart-container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #252726;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.cart-container form .submit-btn:hover{
+    background:#121212;
+}
+
