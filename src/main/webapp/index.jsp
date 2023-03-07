@@ -101,5 +101,47 @@
 
     <!-- Offer finished -->
     
+    <!-- Features Product -->
+    <div class="features-conatin">
+        <div class="features-product">
+            <h2 class="title">Features Product</h2>
+        </div>
+
+        <!-- box-slider -->
+        <div class="container">
+            <div class="image">
+                <img src="./features/men/mp-1.jpg" alt="Shoes">
+                <h3>White Shoe</h3>
+                <h3>$30.00</h3>
+                <a class="add-cart cart1" href="#">Add Cart</a>
+                <input type="hidden" value="15" />
+            </div>
+            <div class="image">
+                <img src="./features/men/mp-2.jpg" alt="Shoes">
+                <h3>Neklesh</h3>
+                <h3>$25.00</h3>
+                <a class="add-cart cart2" href="#">Add Cart</a>
+                <input type="hidden" value="20" />
+            </div>
+            <div class="image">
+                <img src="./features/men/mp-3.jpg" alt="Shoes">
+                <h3>Kangan</h3>
+                <h3>$20.00</h3>
+                <a class="add-cart cart3" href="#">Add Cart</a>
+                <input type="hidden" value="15" />
+            </div>
+            <div class="image">
+                <img src="./features/men/mp-4.jpg" alt="Shoes">
+                <h3>Jhumka</h3>
+                <h3>$10.00</h3>
+                <a class="add-cart cart4" href="#">Add Cart</a>
+                <input type="hidden" value="20" />
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+    <!-- Features Product -->
+    
 </body>
 </html>
