@@ -16,6 +16,16 @@
     
     <dependencies>
         <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.32</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
@@ -109,6 +119,42 @@
                             <staleFile>${project.build.directory}/jaxws/stale/StudentService.stale</staleFile>
                         </configuration>
                         <id>wsimport-generate-StudentService</id>
+                        <phase>generate-sources</phase>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>localhost_8080/Soap-Service/CustomerService.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <vmArgs>
+                                <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+                            </vmArgs>
+                            <wsdlLocation>http://localhost:8080/Soap-Service/CustomerService?wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/CustomerService.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-CustomerService</id>
+                        <phase>generate-sources</phase>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>localhost_8080/Soap-Service/OrderService.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <vmArgs>
+                                <vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+                            </vmArgs>
+                            <wsdlLocation>http://localhost:8080/Soap-Service/OrderService?wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/OrderService.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-OrderService</id>
                         <phase>generate-sources</phase>
                     </execution>
                 </executions>

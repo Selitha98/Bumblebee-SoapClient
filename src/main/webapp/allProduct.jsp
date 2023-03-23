@@ -52,7 +52,7 @@
 
             <!-- Mens Shoes -->
             <div class="image">
-                <img src="./features/men/mp-1.jpg" alt="Shoes">
+                <img src="./features/men/whiteshoe.jpg" alt="Shoes">
                 <h3>White Shoe</h3>
                 <h3>$30.00</h3>
                 <a class="add-cart cart1" href="#">Add Cart</a>

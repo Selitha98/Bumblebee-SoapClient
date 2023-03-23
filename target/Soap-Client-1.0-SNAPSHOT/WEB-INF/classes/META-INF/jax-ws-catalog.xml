@@ -2,4 +2,8 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
     <system systemId="http://localhost:8080/Soap-Service/StudentService?wsdl" uri="wsdl/localhost_8080/Soap-Service/StudentService.wsdl"/>
     <system systemId="http://localhost:8080/Soap-Service/StudentService?xsd=1" uri="wsdl/localhost_8080/Soap-Service/StudentService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Soap-Service/CustomerService?wsdl" uri="wsdl/localhost_8080/Soap-Service/CustomerService.wsdl"/>
+    <system systemId="http://localhost:8080/Soap-Service/CustomerService?xsd=1" uri="wsdl/localhost_8080/Soap-Service/CustomerService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Soap-Service/OrderService?wsdl" uri="wsdl/localhost_8080/Soap-Service/OrderService.wsdl"/>
+    <system systemId="http://localhost:8080/Soap-Service/OrderService?xsd=1" uri="wsdl/localhost_8080/Soap-Service/OrderService.xsd_1.xsd"/>
 </catalog>

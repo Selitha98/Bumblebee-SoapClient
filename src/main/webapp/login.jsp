@@ -31,15 +31,15 @@
     <div class="wrapper">
         <div class="form-box login">
             <h2>Login</h2>
-            <form action="#">
+            <form action="Customer_login_Servelet" method="post">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label for="email">Email</label>
+                    <input type="id" name="id" required>
+                    <label for="id">ID</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
+                    <input type="password" name="password" required>
                     <label for="password">Password</label>
                 </div>
                 <div class="remember-forgot">

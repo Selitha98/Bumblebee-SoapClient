@@ -14,5 +14,7 @@ That way multiple projects can share the same settings (useful for formatting ru
 Any value defined here will override the pom.xml file value but is only applicable to the current project.
 -->
         <org-netbeans-modules-maven-jaxws._5f_C_5f_StudentService>http://localhost:8080/Soap-Service/StudentService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_StudentService>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_CustomerService>http://localhost:8080/Soap-Service/CustomerService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_CustomerService>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_OrderService>http://localhost:8080/Soap-Service/OrderService?wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_OrderService>
     </properties>
 </project-shared-configuration>

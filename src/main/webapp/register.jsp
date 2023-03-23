@@ -31,39 +31,35 @@
     <div class="wrapper">
         <div class="form-box login">
             <h2>Registration</h2>
-            <form action="#">
+            <form action="Customer_Register_Servelt" method="post">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="person"></ion-icon></span>
-                    <input type="text" required>
-                    <label for="name">Full name</label>
+                    <input type="text" name="id" required>
+                    <label for="name">ID</label>
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="call"></ion-icon></span>
-                    <input type="number" required>
-                    <label for="phone">Phone </label>
+                    <input type="text" name="name" required>
+                    <label for="name">Name </label>
                 </div>
 
                 <div class="input-box">
                     <span class="icon"><ion-icon name="calendar"></ion-icon></span>
-                    <input type="date" required>
-                    <label for="date">Date of Birth </label>
+                    <input type="email" name="email" required>
+                    <label for="email">Email </label>
                 </div>
                 
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label for="email">Email</label>
+                    <input type="password" name="password" required>
+                    <label for="password">password</label>
                 </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label for="password">Password</label>
-                </div>
-                <div class="input-box">
+                
+<!--                <div class="input-box">
                     <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
                     <input type="password" required>
                     <label for="repassword">Confirm Password</label>
-                </div>
+                </div>-->
                 <!-- <div class="remember-forgot">
                     <label><input type="checkbox">Remember me</label>
                         

@@ -7,7 +7,7 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [
     {
       name: 'White Shoe',
-      tag: 'mp-1',
+      tag: 'whiteshoe',
       price: 30,
       inCart: 0
     },

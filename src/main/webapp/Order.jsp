@@ -50,28 +50,29 @@
     <!-- Cart Details -->
 
     <div class="cart-container">
-        <form action="">
+        <form action="Customer_Order_Servelt" method="post">
             <div class="crt-row">
                 <div class="crt-col">
                     <h3 class="crt-Titile">Payment</h3>
 
                     <div class="inputBOx">
-                        <span>Full Name :</span>
-                        <input type="text" placeholder="Enter Your Name..">
+                        <span>ID :</span>
+                        <input type="text" name="id" placeholder="Enter Your ID..">
                     </div>
 
                     <div class="inputBOx">
-                        <span>Email :</span>
-                        <input type="email" placeholder="Enter Your Email..">
+                        <span>NAme :</span>
+                        <input type="text" name="name" placeholder="Enter Your name..">
                     </div>
                     <div class="inputBOx">
-                        <span>NIC :</span>
-                        <input type="number" placeholder="Enter Your NIC..">
+                        <span>Address :</span>
+                        <input type="text" name="address" placeholder="Enter Your adress..">
                     </div>
                     <div class="inputBOx">
-                        <span>Phone Number:</span>
-                        <input type="number" placeholder="Enter Your Phone Number">
+                        <span>Plan:</span>
+                        <input type="text" name="plan" placeholder="Plan">
                     </div>
+                    
                 </div>
 
                 <div class="crt-col">
@@ -84,15 +85,15 @@
 
                     <div class="inputBOx">
                         <span>Loan Balance :</span>
-                        <input type="number" placeholder="Up to 15 000.." min="0" max="15000">
+                        <input type="text" name="loan" placeholder="Up to 15 000.." >
                     </div>
                     <div class="inputBOx">
-                        <span>Installement Plan :</span>
-                        <input type="number" placeholder="Upto 3 Months " min="0" max="3">
+                        <span>BIrth dAy :</span>
+                        <input type="text" name="birthday" placeholder="BIrthday " >
                     </div>
                     <div class="inputBOx">
                         <span>Price :</span>
-                        <input type="number" placeholder="0">
+                        <input type="text" name="price" placeholder="0">
                     </div>
                 </div>
             </div>
@@ -153,5 +154,12 @@
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' ></script>
     <script src="script.js"></script>
+    <script>
+    console.log(localStorage.getItem("totalCost"));
+    document.getElementById("price").value = localStorage.getItem("totalCost");
+    function myFunction() {
+        alert("Order Successfuly !!!");
+    }
+    </script>
 </body>
 </html>
