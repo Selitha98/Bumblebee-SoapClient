@@ -1,6 +1,6 @@
 <%-- 
-    Document   : cartnew
-    Created on : Mar 7, 2023, 5:57:57 PM
+    Document   : Cart
+    Created on : Mar 23, 2023, 12:58:34 PM
     Author     : Selitha Sasmitha
 --%>
 
@@ -8,37 +8,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="ShopStyle.css">
-        <link rel="stylesheet" href="index.css">
-        <title>Cart</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="Stylesheet" href="ShopST.css">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <title>Shop</title>
     </head>
     <body>
-        <div class="header">
-        <div class="menu-bar">
-                <img src="./images/whiteletterSmall.png" alt="logo">
-
+        <header>
+            <div class="overlay"></div>
+            <nav>
+                <h2>SHOP</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li><a href="#">Men</a></li>
-                                <li><a href="#">Women</a></li>
-                                <li><a href="#">Kids</a></li>
-                                
-                            </ul>
-                        </div>
-                    </li>    
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="cart"><a href="Cart.jsp"><ion-icon name="cart"></ion-icon>CART<span>0</span></a></li> 
+                    <li class="home"><a href="Home.jsp"><ion-icon name="home"></ion-icon>Home</a></li>
+                    <li class="shop"><a href="Shop.jsp"><ion-icon name="apps"></ion-icon>SHOP</a></li>
+                    <li class="cart"><a href="Cart.jsp"><ion-icon name="cart"></ion-icon>CART<span>0</span></a></li>
                 </ul>
-        </div>
-    </div>
+            </nav>
+        </header>
         
         <div class="products-container">
             <div class="product-header">
@@ -52,48 +39,44 @@
             </div>
             <div class="buyNowButton">
                 <form action="Order.jsp">
-                    <input type="submit" value="Click" onclick="passvalues();"/>
+                    <input type="submit" id="btn1" value="Buy Now" onclick="passvalues();"/>
                 </form>
             </div>
         </div>
         
-        <!-- Footer -->
         <footer class="footer">
-            <div class="footer-left">
-                <img src="./images/whiteletterSmall.png" alt="">
-                
+            <div class="foo">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>BRANCHES</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Gallary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Payment Plan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ADMIN</h4>
+                    <ul>
+                        <li><a href="AdminLogin.jsp">Admin Login</a></li>
+                    </ul>
+                </div>
             </div>
-                <ul class="footer-right">
-                    <li>
-                        <h2>Product</h2>
-                        <ul class="boxfooter">
-                            <li><a href="#">Men Shoes</a></li>
-                            <li><a href="#">Women Shoes</a></li>
-                            <li><a href="#">Kids Shoes</a></li>
-                            <li><a href="#">All Product</a></li>
-                            
-                        </ul>
-                    </li>
-                    <li class="features">
-                        <h2>Useful Links</h2>
-                        <ul class="boxfooter">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact US</a></li>
-                            <li><a href="#">Admin</a></li>
-                        </ul>
-                    </li>
-                    <li class="features">
-                        <h2>Address</h2>
-                        <ul class="boxfooter">
-                            <li><a href="#">27/12, Anderson Road</a></li>
-                            <li><a href="#">High Level Road</a></li>
-                            <li><a href="#">Nugegoda</a></li>
-                            <li><a href="#">Colombo</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            <div class="footer-bottom">
-                <p>All Right Reserved by &copy;Bumblebee 2023</p>
             </div>
         </footer>
         

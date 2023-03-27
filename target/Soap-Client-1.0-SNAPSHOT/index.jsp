@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="ShopStyle.css">
         <link rel="stylesheet" href="index.css">
+        
     
     <title>Home</title>
 </head>
@@ -25,19 +26,19 @@
                 <img src="./images/whiteletterSmall.png" alt="logo">
 
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a>
+                    <li><a href="./index.jsp">Home</a></li>
+                    <li><a href="./allProduct.jsp">Product</a>
                         <div class="dropdown-menu">
                             <ul>
-                                <li><a href="#">Men</a></li>
-                                <li><a href="#">Women</a></li>
-                                <li><a href="#">Kids</a></li>
+                                <li><a href="./men.jsp">Men</a></li>
+                                <li><a href="./women.jsp">Women</a></li>
+                                <li><a href="./kid.jsp">Kids</a></li>
                                 
                             </ul>
                         </div>
                     </li>    
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./aboutUS.jsp">About</a></li>
+                    <li><a href="./contactUs.jsp">Contact</a></li>
                     <li class="cart"><a href="Cart.jsp"><ion-icon name="cart"></ion-icon>CART<span>0</span></a></li> 
                 </ul>
         </div>

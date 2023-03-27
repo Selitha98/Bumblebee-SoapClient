@@ -1,0 +1,182 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 26, 2023, 3:36:26 PM
+    Author     : Selitha Sasmitha
+*/
+
+/* About US Page */
+
+.our-mission{
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.our-mission h2{
+    font-size: 4em;
+}
+
+.our-mission p{
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
+/* Contact US Page */
+
+.contactus-container{
+    padding: 20px 20px;
+    margin:30px 30px;
+
+}
+
+.contactus-container h1{
+    font-size: 3em;
+    margin: 20px 0;
+
+}
+
+
+.contactus-container h3{
+    font-size: 1.8em;
+    margin: 20px 0;
+
+}
+
+.contactus-container ul{
+    list-style-type: none;
+   
+}
+
+.contactus-container ul li{
+    display: inline-block;
+    margin: 10px 20px;
+   
+}
+
+.contactus-list{
+    font-size: 2em;
+    display: inline;   
+    margin-top: 20px;
+}
+
+
+.contactus-list i{
+    font-size: 1em;
+    padding-right: 20px;
+}
+
+/* Tables */
+
+.admin_view{
+
+    margin: 10px 20px;
+    padding: 20px 30px;
+    
+   
+}
+
+.admin_table{
+    
+    height: 100%;
+    
+}
+.tbl{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.order_table {
+    margin-top: 80px;
+
+}
+
+
+.cutomer_table h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    /* padding: 20px auto 50px auto; */
+    
+    font-size: 2em;
+}
+
+.order_table h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    /* padding: 20px auto 50px auto; */
+    
+    font-size: 2em;
+}
+
+
+
+#customers, #orders {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th, #orders td, #orders th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #orders tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #orders tr:hover {background-color: #ddd;}
+  
+  #customers th,#orders th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.table_btn{
+    float: right;
+    
+}
+
+.tble_btn_two {
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.btn_commn {
+    padding: 8px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.edit_btn {
+    background-color: rgb(67, 67, 238);
+}
+
+.dlte_btn {
+    background-color: rgb(244, 90, 90);
+}
+  
+
+/* Tables */

@@ -32,29 +32,53 @@ public class Customer_login_Servelet extends HttpServlet {
         	id = request.getParameter("id");
 		password = request.getParameter("password");
 		
-		if((id != null && !id.isEmpty()) && (password != null && !password.isEmpty())) {
+		
+                
+                
+                if("123".equals(id) && "admin123".equals(password)){
+                    
+                    CustomerConnector customerLogin = new CustomerConnector();	
+                    Customers customer = customerLogin.loginCustomer(id, password);
+                    
+                    
+                    HttpSession session = request.getSession();		
+                    RequestDispatcher dispatcher = request.getRequestDispatcher("admin.jsp");
+                    session.setAttribute("customer", customer);		
+                    dispatcher.forward(request, response);
+                }
+                else if((id != null && !id.isEmpty()) && (password != null && !password.isEmpty())) {
 			
 			
 		CustomerConnector customerLogin = new CustomerConnector();	
 		Customers customer = customerLogin.loginCustomer(id, password);
-			
-			
-		if(customer != null && customer.isIsValide()) {				
-		HttpSession session = request.getSession();
-				
+		
+//                if("123".equals(id) && "admin123".equals(password)){
+//                
+//                    RequestDispatcher dispatcher = request.getRequestDispatcher("admin.jsp");
+//                    session.setAttribute("customer", customer);		
+//                    dispatcher.forward(request, response);
+//                
+//                }else 
+                    
+                if(customer != null && customer.isIsValide()) {				
+		
+                HttpSession session = request.getSession();		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 		session.setAttribute("customer", customer);		
 		dispatcher.forward(request, response);
 						
-		} else {
+		}else {
 				
 		RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
         	request.setAttribute("errorMessage", "you have given invalid username or password :( ");
 		dispatcher.forward(request, response);
 				
 		}			
-	}
+            }
+                
+                
         
         }
+
     }
 

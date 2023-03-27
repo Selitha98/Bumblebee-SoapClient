@@ -1,7 +1,9 @@
 services\RegisterCustomer.class
 com\mycompany\soap\client\ObjectFactory.class
 services\CustomerOrderResponse.class
+Servelt\Customer_Order_Servelt.class
 Connector\CustomerConnector.class
+Connector\OrderConnector.class
 Servelt\Customer_Register_Servelt.class
 services\LoginCustomerResponse.class
 services\Customers.class
@@ -11,6 +13,7 @@ services\LoginCustomer.class
 com\mycompany\soap\client\Hello.class
 services\CustomerOrder.class
 com\mycompany\soap\client\StudentService.class
+Servelt\Customer_login_Servelet.class
 services\package-info.class
 com\mycompany\soap\client\HelloResponse.class
 com\mycompany\soap\client\StudentService_Service.class

@@ -6,147 +6,75 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [
     {
-      name: 'White Shoe',
-      tag: 'whiteshoe',
-      price: 30,
+      name: 'Nekless',
+      tag: 'nekless',
+      price: 15,
       inCart: 0
     },
     {
-      name: 'Office Shoes',
-      tag: 'mp-2',
-      price: 45,
-      inCart: 0
-    },
-    {
-      name: 'Matte Black Office Shoes',
-      tag: 'mp-3',
-      price: 50,
-      inCart: 0
-    },
-    {
-      name: 'Canvas New Leather',
-      tag: 'mp-4',
-      price: 40,
-      inCart: 0
-    },
-    {
-      name: 'Brown Colour Office Shoe',
-      tag: 'mp-5',
+      name: 'Neklesh',
+      tag: 'neklesh',
       price: 25,
       inCart: 0
     },
     {
-      name: 'Maroon Color Office Shoe',
-      tag: 'mp-6',
-      price: 25,
-      inCart: 0
-    },
-    {
-      name: 'Orange Color Office Shoe',
-      tag: 'mp-7',
+      name: 'Kangan',
+      tag: 'kangan',
       price: 20,
       inCart: 0
     },
     {
-      name: 'White mix Black',
-      tag: 'mp-8',
-      price: 25,
-      inCart: 0
-    },
-    {
-      name: 'All Black',
-      tag: 'mp-9',
+      name: 'Jhumka',
+      tag: 'jhumka',
       price: 10,
       inCart: 0
     },
     {
-      name: 'Diamond Shoe',
-      tag: 'wp-1',
-      price: 40,
+      name: 'Black',
+      tag: 'black',
+      price: 8,
       inCart: 0
     },
     {
-      name: 'Navy Blue High Heels',
-      tag: 'wp-2',
-      price: 35,
+      name: 'Cream',
+      tag: 'cream',
+      price: 6,
       inCart: 0
     },
     {
-      name: 'Matte Black New',
-      tag: 'wp-3',
-      price: 100,
+      name: 'Gray',
+      tag: 'gray',
+      price: 4,
       inCart: 0
     },
     {
-      name: 'Matte Grey',
-      tag: 'wp-4',
-      price: 35,
+      name: 'White',
+      tag: 'white',
+      price: 2,
       inCart: 0
     },
     {
-      name: 'Colour Mix',
-      tag: 'wp-5',
-      price: 30,
-      inCart: 0
-    },
-    {
-      name: 'Shining Black',
-      tag: 'wp-6',
-      price: 25,
-      inCart: 0
-    },
-    {
-      name: 'Trending Shoes',
-      tag: 'wp-7',
-      price: 30,
-      inCart: 0
-    },
-    {
-      name: 'Low Heels Shoe',
-      tag: 'wp-8',
+      name: 'Battery',
+      tag: 'battery',
       price: 50,
       inCart: 0
     },
     {
-      name: 'Simple Canvas',
-      tag: 'wp-9',
+      name: 'CCTV',
+      tag: 'cctv',
+      price: 80,
+      inCart: 0
+    },
+    {
+      name: 'Clock',
+      tag: 'clock',
       price: 20,
       inCart: 0
     },
     {
-      name: 'Blue Canvas',
-      tag: 'kp-1',
-      price: 20,
-      inCart: 0
-    },
-    {
-      name: 'Red Canvas',
-      tag: 'kp-3',
-      price: 30,
-      inCart: 0
-    },
-    {
-      name: 'Rainbow Mix',
-      tag: 'kp-4',
-      price: 30,
-      inCart: 0
-    },
-    {
-      name: 'Cute Black',
-      tag: 'kp-5',
-      price: 25,
-      inCart: 0
-    },
-    {
-      name: 'Pinky Yellow',
-      tag: 'kp-6',
-      price: 19,
-      inCart: 0
-    },
-    {
-      name: 'Lightning White',
-      tag: 'kp-7',
-      price: 35,
+      name: 'Headset',
+      tag: 'headset',
+      price: 100,
       inCart: 0
     }
 ];
@@ -247,7 +175,7 @@ function displayCart() {
             productContainer.innerHTML += `
             <div class="product">
                 <ion-icon name="close-circle"></ion-icon>
-                <img src="images/${item.tag}.jpg">
+                <img src="Photos/${item.tag}.png">
                 <span class="sm-hide">${item.name}</span>
             </div>
             <div class="price sm-hide">$${item.price}.00</div>
@@ -339,4 +267,3 @@ function deleteButtons() {
 
 onLoadCartNumber();
 displayCart();
-
