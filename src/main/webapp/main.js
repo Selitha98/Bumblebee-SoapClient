@@ -6,75 +6,147 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [
     {
-      name: 'Nekless',
-      tag: 'nekless',
-      price: 15,
+      name: 'White Shoe',
+      tag: 'whiteshoe',
+      price: 30,
       inCart: 0
     },
     {
-      name: 'Neklesh',
-      tag: 'neklesh',
-      price: 25,
+      name: 'Office Shoes',
+      tag: 'officeshoes',
+      price: 45,
       inCart: 0
     },
     {
-      name: 'Kangan',
-      tag: 'kangan',
-      price: 20,
-      inCart: 0
-    },
-    {
-      name: 'Jhumka',
-      tag: 'jhumka',
-      price: 10,
-      inCart: 0
-    },
-    {
-      name: 'Black',
-      tag: 'black',
-      price: 8,
-      inCart: 0
-    },
-    {
-      name: 'Cream',
-      tag: 'cream',
-      price: 6,
-      inCart: 0
-    },
-    {
-      name: 'Gray',
-      tag: 'gray',
-      price: 4,
-      inCart: 0
-    },
-    {
-      name: 'White',
-      tag: 'white',
-      price: 2,
-      inCart: 0
-    },
-    {
-      name: 'Battery',
-      tag: 'battery',
+      name: 'Matte Black Office Shoes',
+      tag: 'matteblackofficeshoes',
       price: 50,
       inCart: 0
     },
     {
-      name: 'CCTV',
-      tag: 'cctv',
-      price: 80,
+      name: 'Canvas New Leather',
+      tag: 'canvasnewleather',
+      price: 40,
       inCart: 0
     },
     {
-      name: 'Clock',
-      tag: 'clock',
+      name: 'Brown Colour Office Shoe',
+      tag: 'browncolourofficeshoe',
+      price: 25,
+      inCart: 0
+    },
+    {
+      name: 'Maroon Color Office Shoe',
+      tag: 'marooncolorofficeshoe',
+      price: 25,
+      inCart: 0
+    },
+    {
+      name: 'Orange Color Office Shoe',
+      tag: 'orangecolorofficeshoe',
       price: 20,
       inCart: 0
     },
     {
-      name: 'Headset',
-      tag: 'headset',
+      name: 'White mix Black',
+      tag: 'whitemixblack',
+      price: 25,
+      inCart: 0
+    },
+    {
+      name: 'All Black',
+      tag: 'allblack',
+      price: 10,
+      inCart: 0
+    },
+    {
+      name: 'Diamond Shoe',
+      tag: 'diamondshoe',
+      price: 40,
+      inCart: 0
+    },
+    {
+      name: 'Navy Blue High Heels',
+      tag: 'navybluehighheels',
+      price: 35,
+      inCart: 0
+    },
+    {
+      name: 'Matte Black New',
+      tag: 'matteblacknew',
       price: 100,
+      inCart: 0
+    },
+    {
+      name: 'Matte Grey',
+      tag: 'mattegrey',
+      price: 35,
+      inCart: 0
+    },
+    {
+      name: 'Colour Mix',
+      tag: 'colourmix',
+      price: 30,
+      inCart: 0
+    },
+    {
+      name: 'Shining Black',
+      tag: 'shiningblack',
+      price: 25,
+      inCart: 0
+    },
+    {
+      name: 'Trending Shoes',
+      tag: 'trendingshoes',
+      price: 30,
+      inCart: 0
+    },
+    {
+      name: 'Low Heels Shoe',
+      tag: 'lowheelsshoe',
+      price: 50,
+      inCart: 0
+    },
+    {
+      name: 'Simple Canvas',
+      tag: 'simplecanvas',
+      price: 20,
+      inCart: 0
+    },
+    {
+      name: 'Blue Canvas',
+      tag: 'bluecanvas',
+      price: 20,
+      inCart: 0
+    },
+    {
+      name: 'Red Canvas',
+      tag: 'redcanvas',
+      price: 30,
+      inCart: 0
+    },
+    {
+      name: 'Rainbow Mix',
+      tag: 'rainbowmix',
+      price: 30,
+      inCart: 0
+    },
+    {
+      name: 'Cute Black',
+      tag: 'cuteblack',
+      price: 25,
+      inCart: 0
+    },
+    {
+      name: 'Pinky Yellow',
+      tag: 'pinkyyellow',
+      price: 19,
+      inCart: 0
+    },
+    {
+      name: 'Lightning White',
+      tag: 'lightningwhite',
+      price: 35,
       inCart: 0
     }
 ];
@@ -267,3 +339,4 @@ function deleteButtons() {
 
 onLoadCartNumber();
 displayCart();
+
