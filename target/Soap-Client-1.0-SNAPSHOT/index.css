@@ -1,0 +1,354 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 26, 2023, 5:02:57 PM
+    Author     : Selitha Sasmitha
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 5, 2023, 12:58:35 PM
+    Author     : Selitha Sasmitha
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(./images/shoe1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header2-content{
+    display: block;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header2-phrase{
+    font-size: 5em;
+    
+}
+
+.shopnow{
+    padding: 15px 40px;
+    font-size: 2em;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: black;
+    backdrop-filter: blur(20px);
+    text-decoration: none;
+    
+
+}
+
+.icon{
+    color: #fff;
+}
+
+
+
+.menu-bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu-bar ul li {
+    padding:10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropdown-menu {
+
+    display: none;
+}
+
+
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+    z-index: 1;
+  
+}
+
+.menu-bar ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 10px;
+   
+}
+
+.dropdown-menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+/* Catergories Section */
+
+.categories {
+    margin: 70px 0;
+}
+
+.cat-phrase {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.col-3{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.col-3 a{
+    text-decoration: none;
+
+}
+
+.col-3 a h3{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.rowcat {
+    text-align: center;
+    
+}
+
+/* Catergories Section */
+
+/* Offer Section */
+
+.offer{
+    background: radial-gradient(#fff, #545151);
+    margin-top: 80px;
+    padding: 30px 0;
+    
+}
+
+.offer-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: center;
+
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h2 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.col-2 h1 {
+    font-size: 3em;
+    color: rgb(234, 33, 33);
+    margin-bottom: 20px;
+}
+
+.btn-Offer{
+    text-decoration: none;
+    font-size: 2em;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/* Finished Offer Section */
+
+/* Features Product  */
+
+
+.features-conatin{
+/*    margin-top: 100px;*/
+    padding-top:50px;
+   
+}
+
+.features-product{
+    margin-top: 100px;
+}
+
+
+.title{
+    text-align: center;
+/*    margin: 20px auto 40px;*/
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background: rgb(228, 10, 10);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    z-index: 0;
+}
+
+.title:hover::after{
+    transform: scaleX(1);
+}
+
+
+/* Features Product  */
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #011c39;
+}
+
+footer > *{
+    flex: 1 120%;
+    
+}
+
+.footer-left{
+    text-align: center;
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+   
+}
+
+.footer-left img{
+    width: 350px
+       
+}
+
+.footer h2{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li{
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-right{
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.footer-right > *{
+    flex:1 30%;
+    margin-right: 1.25em;
+    text-align: center;
+    
+}
+
+.boxfooter a{
+    color: #999;
+
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+
+.footer-left p{
+    padding-right: 20%;
+    color: #999;
+}
+
+.socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
